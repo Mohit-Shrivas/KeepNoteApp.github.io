@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(251, 239, 238);
+}
+.heading {
+  height: 50px;
+  background-color: rgb(154, 214, 252);
+  padding-left: 20px;
+  padding-top: 5px;
+  border: 0;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  color: rgba(0, 0, 0);
+}
+.heading h1 {
+  margin-bottom: 5px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-div {
+  border: none;
+  padding: 0.5rem 1rem;
+  text-align: right;
+  cursor: pointer;
+  position: fixed;
+  top: 12%;
+  right: 5%;
+}
+
+button.learn-more {
+  position: absolute;
+  top: 100%;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  background: skyblue;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  height: 50px;
+  width: 55px;
+  font-size: inherit;
+  color: #fff;
+  font-family: inherit;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0.3s;
+}
+button.learn-more:hover {
+  background-color: tomato;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+}
+button span {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.opration {
+  height: auto;
+  max-width: 250px;
+  background-color: rgb(254, 140, 138);
+  border: 0 solid rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  margin: 1.5rem;
+  float: left;
+}
+
+.fa-edit,
+.fa-trash-alt {
+  color: #fff;
+  padding: 10px;
+  border: none;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.fa-trash-alt {
+  background-color: #e74c3c;
+}
+.fa-edit:hover {
+  background-color: #fff;
+  color: #27ae60;
+  filter: drop-shadow(0px 10px 8px Irgb(219, 218, 218));
+}
+
+.fa-trash-alt:hover {
+  background-color: #fff;
+  color: #e74c3c;
+  filter: drop-shadow(0px 10px 8px rgb(219, 218, 218));
+}
+.edit,
+.delete {
+  background-color: none;
+  border: none;
+  background-color: rgb(254, 140, 138);
+}
+
+.main {
+  border: none;
+  text-align: left;
+  min-height: 230px;
+  height: auto;
+  overflow-wrap: break-word;
+  background-color: #fff;
+  min-width: 240px;
+  max-width: 250px;
+  padding: 10px;
+}
+textarea {
+  height: 230px;
+  max-width: 250px;
+  min-width: 250px;
+  padding: 10px;
+  outline: unset;
+  font-size: large;
+  border: none;
+}
+.hidden {
+  display: none;
+}
+
+.note {
+  display: block;
+}
+
+}
